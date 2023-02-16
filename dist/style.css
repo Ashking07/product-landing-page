@@ -1,0 +1,299 @@
+body{
+ background-color:black;
+}
+#header{
+  display:flex;
+  flex-direction:row;
+  align-content:flex-end;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+h1{
+  display:flex;
+  flex-direction:row;
+  align-content:flex-start;
+  justify-content: space-around;
+  align-items: center;
+  color:grey;
+}
+
+#nav-bar{
+  background-color:rgb(0, 27, 97);
+  margin-left:35%;
+  margin-right:30px;
+  padding:10px;
+}
+
+.nav-link{
+  color:CornflowerBlue;
+  padding:15px;
+  font-size:medium;
+  font-family:sans-serif;
+}
+
+#section1,#section2,#section3{
+  color:white;
+}
+
+*{
+  color:white;
+}
+
+blockquote{
+  text-align:center;
+  background-color:grey;
+  margin-left:38%;
+  margin-right:30%;
+  padding:5px;
+  font-size:23px;
+}
+
+h2{
+  text-align:center;
+  margin-top:50px;
+  font-family:Anton;
+}
+
+#img{
+  width:400px;
+  margin:0px;
+}
+
+#div1{
+  display:flex;
+}
+#div2{
+  display:flex;
+}
+#div3{
+  display:flex;
+}
+
+
+
+#p1{
+  font-size:20px;
+  font-family:sans-serif;
+  margin-right:22%;
+  padding:10px;
+}
+#p2{
+  font-size:20px;
+  font-family:sans-serif;
+  margin-left:30%;
+  padding:10px;
+}
+
+#video{
+  margin:20px;
+  padding:80px;
+  display:flex;
+  justify-content:center;
+
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+
+.product > .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product > h2 {
+  margin-top: 15px;
+}
+
+.product > ol {
+  margin: 15px 0;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: skyblue;
+  font-weight: 500;
+  width:40%;
+}
+
+.product > button:hover {
+  background-color: blue;
+  transition: background-color 0.7s;
+}
+
+.product{
+  background-color:grey;
+}
+#pricing{
+  background-color:black;
+}
+
+@media screen and (min-width:700px){
+      #header-img{
+        width:150px;
+      }
+
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  color: black;
+  font-family: 'Exo 2', sans-serif;
+  padding: 1em;
+}
+
+#div1{
+   margin-top:40px;
+}
+
+blockquote{
+  margin-top:150px;
+}
+
+hr{
+  margin-top:30px;
+  margin-bottom:60px;
+  margin-left:10px;
+   margin-right:10px;
+}
+
+#img{
+  width:300px;
+  height:220px;
+}
+#img2{
+  width:150px;
+  height:210px;
+  margin-right:20px;
+}
+#img3{
+  width:300px;
+  height:220px;
+}
+
+@media screen and (max-width:700px){
+  #img{
+    width:200;
+    height:170;
+  }
+}
+@media screen and (max-width:700px){
+  #img2{
+    width:200;
+    height:150;
+  }
+}
+
+#p1{
+  width:600px;
+}
+
+@media screen and (max-width:700px){
+  #pricing{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:2px;
+    border:;
+  }
+}
+
+footer {
+  margin-top: 30px;
+  background-color: darkgrey;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+
+#apple {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#apple > h2 {
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#apple input[type='email'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  margin:9px;
+}
+#apple input[type='text'] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+  margin:5px;
+}
+
+
+#apple input[type='submit'] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: #f1c40f;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  margin-left:170px;
+}
+
+#apple input[type='submit']:hover {
+  background-color: orange;
+  transition: background-color 0.9s;
+}
